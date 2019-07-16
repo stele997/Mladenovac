@@ -1,0 +1,568 @@
+* 
+{
+	margin:0 auto;
+	padding:0 auto;
+}
+p, h1, h2, h3, h4, em, label
+{
+	color:white;
+	font-size: 17px;
+	line-height:17px;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+body
+{
+}
+#okvir
+{
+	width:1000px;
+	margin: 0 auto;
+}
+#header
+{
+	width:1000px;
+	height:150px;
+	background-color: #2758f8;
+	margin: auto;
+}
+#logo
+{
+	width:100px;
+	height:100px;
+	float:left;
+	margin-top:25px;
+}
+#naslov
+{
+	width:600px;
+	height:100px;
+	float:left;
+	padding-top:40px;
+}
+#naslov a
+{
+	text-decoration:none;
+}
+.hnaslov
+{
+	padding-left:50px;
+}
+#naslov a h1{
+	font-size:80px;
+}
+#naslov a h2{
+	font-size:25px;
+	margin-top:40px;
+}
+#sitemap
+{
+	float:right;
+	width:50px;
+	height:50px;
+	margin-right:40px;
+	margin-top:10px;
+}
+#sitemap a
+{
+	text-decoration:none;
+}
+.cleaner
+{
+	clear:both;
+}
+#meni
+{
+	width:1000px;
+	height:50px;
+	background-color:#000cb4;
+	font-weight: bold;
+}
+#meni ul li {
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+}
+#meni ul li a {
+    display: inline-block;
+    width: 150px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+#meni ul li a:hover{ 
+    background-color:white;
+    text-decoration: none;
+	color:#2200ff;
+}
+#sadrzaj
+{
+	width:1000px;
+	height:830px;
+	background-color:#2758f8;
+}
+#drzac1
+{
+	width:670px;
+	height:730px;
+	float:left;
+}
+.box1
+{
+	width:320px;
+	height:400px;
+	background-color:#000cb4;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+	
+}
+#anketa
+{
+	width:315px;
+	height:810px;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	background-color:#000cb4;
+}
+.box1image
+{
+	width:300px;
+	height:200px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.box1text
+{
+	width:300px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.box1text p
+{
+	text-align: justify;
+    text-justify: inter-word;
+}
+.box1text a
+{
+	text-decoration:none;
+	color:#2758f8;
+}
+.box2
+{
+	width:295px;
+	height:300px;
+	margin-top:10px;
+	margin-left:10px;
+	border-bottom:2px solid;
+	border-color:white;
+}
+#box2
+{
+	width:295px;
+	height:160px;
+	margin-top:10px;
+	margin-left:10px;
+	border-bottom:2px solid;
+	border-color:white;
+}
+#footer
+{
+	width:1000px;
+	height:80px;
+	background-color:#2758f8;
+	border-top:2px solid;
+	border-color:white;
+}
+#footer p
+{
+	color:white;
+	text-align:center;
+	padding-top:10px;
+}
+#sadrzajop
+{
+	width:1000px;
+	height:940px;
+	background-color:#2758f8;
+	padding-top:10px;
+}
+#boxop1
+{
+	width:980px;
+	height:270px;
+	background-color:#000cb4;
+}
+#box1optext
+{
+	width:780px;
+	height:250px;
+	float:left;
+	margin-top:30px;
+	margin-left:10px;
+}
+#box1oppic
+{
+	width:167px;
+	height:250px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+#box1optext p
+{
+	font-size:17px;
+	line-height:17px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+#box1optext p:first-letter 
+{
+    float: left;
+    color: #2758f8;
+    font-size: 80px;
+    line-height: 55px;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-left: 1px;
+}
+#boxop2
+{
+	width:980px;
+	height:310px;
+	background-color:#000cb4;
+	margin-top:10px;
+}
+
+#box2oppic
+{
+	width:420px;
+	height:280px;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+    padding-right:10px;
+}
+.opp
+{
+	font-size:17px;
+	line-height:17px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+.opp:first-letter 
+{
+    float: left;
+    color: #2758f8;
+    font-size: 80px;
+    line-height: 55px;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-left: 1px;
+}
+#boxop2 p
+{
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:10px;
+}
+#boxop3
+{
+	width:980px;
+	height:330px;
+	background-color:#000cb4;
+	margin-top:10px;
+}
+#box3oppic
+{
+	width:420px;
+	height:280px;
+	float:right;
+	margin-top:10px;
+	margin-left:10px;
+    padding-right:10px;
+}
+#boxop3 p
+{
+	margin-left:10px;
+	margin-right:10px;
+	padding-top:10px;
+}
+#isadrzaj
+{
+	width:1000px;
+	height:1250px;
+	background-color:#2758f8;
+	padding-top:10px;
+}
+#issadrzaj
+{
+	width:980px;
+	height:1240px;
+	background-color:#000cb4;
+}
+.picset1i
+{
+	width:980px;
+	height:220px;
+}
+.pic1i
+{
+	width:310px;
+	height:200px;
+	float:left;
+	margin-left:12.5px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#textset1i
+{
+	width:955px;
+	height:260px;
+	margin-left:12.5px;
+}
+#textset1i p
+{
+	font-size:17px;
+	line-height:17px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+#textset2i
+{
+	width:955px;
+	height:320px;
+	margin-left:12.5px;
+}
+#textset2i p
+{
+	font-size:17px;
+	line-height:17px;
+	text-align:justify;
+	text-justify:inter-word;
+}
+#sautor
+{
+	width:1000px;
+	height:610px;
+	background-color:#2758f8;
+	padding-top:10px;
+}
+#monalisa
+{
+	width:425px;
+	height:600px;
+	margin-left:10px;
+	float:left;
+}
+#autobigrafija
+{
+	width:545;
+	height:600px;
+	margin-left:10px;
+	float:left;
+}
+#autobigrafija h2 
+{
+	font-size:35px;
+	padding-top:15px;
+}
+#autobigrafija p
+{
+	font-size:20px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#svesti
+{
+	width:1000px;
+	background-color: #2758f8;
+	padding-top:10px;
+}
+#napomena
+{
+	width:980px;
+	background-color:#000cb4;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+#napomena p
+{
+	text-align:center;
+}
+#udarnavest
+{
+	width:810px;
+	height:220px;
+	background-color:#000cb4;
+	margin-top:10px;
+}
+#uvpic
+{
+	height:200px;
+	width:134px;
+	margin-left:10px;
+	margin-top:10px;
+	float:left;
+}
+#uvcon
+{
+	width:646px;
+	height:200px;
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+}
+#uvcon h2
+{
+	font-size:30px;
+}
+#blokvesti
+{
+	width:810px;
+	height:600px;
+	margin-top:20px;
+}
+.vest1
+{
+	width:400px;
+	height:200px;
+	background-color:#000cb4;
+	float:left;
+	margin-top:5px;
+}
+.vest2
+{
+	width:400px;
+	height:200px;
+	background-color:#000cb4;
+	float:right;
+	margin-top:5px;
+}
+.newpic
+{
+	width:150px;
+	height:150px;
+	margin-top:25px;
+	margin-left:10px;
+	float:left;
+}
+.newcontent
+{
+	width:220px;
+	height:150px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+}
+
+#footerv
+{
+	width:1000px;
+	height:80px;
+	background-color:#2758f8;
+	border-top:2px solid;
+	border-color:white;
+	margin-top:10px;
+}
+#footerv p
+{
+	color:white;
+	text-align:center;
+	padding-top:10px;
+}
+
+#gal-sad
+{
+	width:1000px;
+	height:1430px;
+	padding-top:10px;
+	background-color:#2758f8;
+}
+#gal-okv
+{
+	width:904px;
+	height:1420px;
+	margin-left:48px;
+	border:2px solid;
+	border-color:white;
+}
+.gal-box1
+{
+	width:900px;
+	height:166px;
+	margin-top:30px;
+}
+.gal-box1pic
+{
+	width:250px;
+	height:166px;
+	margin-left:37.5px;
+	float:left;
+}
+#gal-box2
+{
+	width:900px;
+	height:268px;
+	margin-top:30px;
+}
+.gal-box2pic
+{
+	width:400px;
+	height:268px;
+	margin-left:33.3px;
+	float:left;
+}
+#gal-box3
+{
+	width:900px;
+	height:280px;
+	margin-top:30px;
+}
+.gal-box3pic
+{
+	width:200px;
+	height:280px;
+	float:left;
+	margin-left:20px;
+}
+.gal-box1pic label
+{
+	position:relative;
+	top:-20px;
+	left:10px;
+}
+.gal-box2pic label
+{
+	position:relative;
+	top:-20px;
+	left:10px;
+}
+.gal-box3pic label
+{
+	position:relative;
+	top:-40px;
+	left:10px;
+}
+#box1oppic label
+{
+	position:relative;
+	top:-20px;
+	left:3px;
+}
+#box2oppic label
+{
+	position:relative;
+	top:-20px;
+	left:3px;
+}
+#box3oppic label
+{
+	position:relative;
+	top:-20px;
+	left:3px;
+}
